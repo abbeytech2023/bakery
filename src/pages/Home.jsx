@@ -176,7 +176,7 @@ export default function Home() {
       </div>
 
       {/* Footer Insight */}
-      <div className="bg-gradient-to-r from-purple-600 to-pink-500 rounded-2xl p-6 text-white shadow">
+      <div className="bg-gradient-to-r from-[#ee9c9cee] to-[#b6751a] rounded-2xl p-6 text-black shadow">
         <h3 className="text-xl font-bold">Today’s Insight</h3>
         <p className="mt-2">
           {profit >= 0

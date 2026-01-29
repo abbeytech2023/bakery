@@ -12,7 +12,7 @@ export default function Header() {
     }`;
 
   return (
-    <header className="bg-gradient-to-r from-purple-600 to-pink-500 shadow-lg">
+    <header className="bg-gradient-to-r from-[#ee9c9cee] to-[#b6751a] shadow-lg">
       <div className="max-w-6xl mx-auto px-6 py-4">
         {/* Top bar */}
         <div className="flex items-center justify-between">

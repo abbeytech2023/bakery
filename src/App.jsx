@@ -5,8 +5,17 @@ import Home from "./pages/Home";
 import Expenses from "./pages/Expenses";
 // import Expenses from "./pages/Expenses";
 import Income from "./pages/Income";
+import { useEffect } from "react";
 
 export default function App() {
+  useEffect(() => {
+    window.addEventListener("beforeinstallprompt", (e) => {
+      e.preventDefault();
+      console.log("✅ beforeinstallprompt fired");
+      alert("PWA INSTALL AVAILABLE");
+      window.deferredPrompt = e;
+    });
+  }, []);
   return (
     <BrowserRouter>
       <div>
