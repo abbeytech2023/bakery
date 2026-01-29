@@ -28,7 +28,7 @@ export default function Income() {
       <h2 className="text-2xl font-bold mb-6">Income</h2>
 
       {/* Income Card */}
-      <div className="bg-white rounded-2xl shadow">
+      <div className="bg-white rounded-2xl shadow p-6">
         <IncomeForm />
         <h3 className="text-lg font-semibold mb-4">Recent Income</h3>
 

@@ -35,7 +35,7 @@ export default function Expenses() {
       <h2 className="text-2xl font-bold mb-6">Expenses</h2>
 
       {/* Expense Cards */}
-      <div className="bg-white rounded-2xl shadow">
+      <div className="bg-white rounded-2xl shadow p-6">
         <ExpenseForm />
         <h3 className="text-lg font-semibold mb-4">Recent Expenses</h3>
 
