@@ -6,6 +6,7 @@ import Expenses from "./pages/Expenses";
 // import Expenses from "./pages/Expenses";
 import Income from "./pages/Income";
 import { useEffect } from "react";
+import InstallAndroid from "./components/InstallAndroid";
 
 export default function App() {
   useEffect(() => {
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="/income" element={<Income />} />
         </Routes>
       </main>
+      <InstallAndroid />
     </BrowserRouter>
   );
 }
