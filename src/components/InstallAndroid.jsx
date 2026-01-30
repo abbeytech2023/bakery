@@ -37,7 +37,7 @@ export default function InstallPrompt() {
         {/* Text */}
         <div className="flex-1">
           <h3 className="text-sm font-semibold text-gray-900">
-            Install GetHomes App
+            Install Bakery App
           </h3>
           <p className="text-xs text-gray-500">Faster access • Works offline</p>
         </div>
