@@ -30,7 +30,7 @@ export default function InstallPrompt() {
         {/* App Icon */}
         <img
           src="/pwa-192x192.png"
-          alt="GetHomes App"
+          alt="Bakery App"
           className="w-12 h-12 rounded-xl"
         />
 

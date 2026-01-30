@@ -16,9 +16,9 @@ export default defineConfig({
         "apple-touch-icon.png",
       ],
       manifest: {
-        name: "My Vite PWA App",
-        short_name: "VitePWA",
-        description: "My Progressive Web App built with Vite",
+        name: "BAkERY App",
+        short_name: "BAKERY APP",
+        description: "My Progressive Bakery App",
         theme_color: "#ffffff",
         background_color: "#ffffff",
         display: "standalone",
